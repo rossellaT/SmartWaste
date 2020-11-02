@@ -13,8 +13,8 @@ public class CreateIotClient {
 
     public CreateIotClient() {
         //Set IoT Client
-        cred = new BasicAWSCredentials("AKIAZTZTRAMS62P4R4VM",
-                "z464u9YY0pkjUHfv7TsvQ+A0EGbe28qW9mI7TCRS" );
+        cred = new BasicAWSCredentials("--",
+                "--" );
         long startConnectingTime = System.nanoTime();
         iotClient = new AWSIotClient(cred);
         long finishConnectingTime = System.nanoTime();
