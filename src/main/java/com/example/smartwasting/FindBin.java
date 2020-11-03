@@ -36,8 +36,8 @@ public class FindBin extends Thread {
         this.resultView = resultView;
         CreateIotClient cr = new CreateIotClient();
         iotClient = cr.getIotClient();
-        cred = new BasicAWSCredentials("AKIAZTZTRAMS62P4R4VM",
-                "z464u9YY0pkjUHfv7TsvQ+A0EGbe28qW9mI7TCRS" );
+        cred = new BasicAWSCredentials("--",
+                "--" );
 
     }
 
